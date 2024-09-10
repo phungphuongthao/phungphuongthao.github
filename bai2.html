@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0px;
+            margin: 0px auto;
+        }
+        
+        .wrapper {
+            width: 960px;
+            height: 700px;
+            box-sizing: border-box;
+            background-color: rgb(215, 226, 110);
+        }
+        
+        header {
+            background-color: #294e79;
+            width: 960px;
+            height: 150px;
+            position: relative;
+        }
+        
+        header h1 {
+            position: absolute;
+            top: 10px;
+            left: 100px;
+            color: white;
+        }
+        
+        header h5 {
+            position: absolute;
+            top: 50px;
+            left: 100px;
+            color: white;
+        }
+        
+        header #form1 {
+            top: 10px;
+            right: 20px;
+            position: absolute;
+        }
+        
+        nav {
+            position: absolute;
+            bottom: 3px;
+            right: 20px;
+        }
+        
+        .menu li {
+            background-color: #78ace7;
+            display: inline-table;
+            height: 50px;
+            line-height: 50px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        
+        .menu li a {
+            color: white;
+            font-weight: bolder;
+            text-decoration: none;
+        }
+        
+        .menu li:hover {
+            background-color: thistle;
+        }
+        
+        .menu li:hover>a {
+            font-style: italic;
+            color: tomato;
+        }
+        
+        .content {
+            height: 450px;
+            width: 960px;
+            background-color: wheat;
+        }
+        
+        footer {
+            background-color: #294e79;
+            width: 100%;
+            height: 150px;
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <img src="../image/flower.png" alt="" srcset="" height="100" width="80">
+            <h1>FlowerBox360</h1>
+            <h5>...to get your daily close of luxury roses!</h5>
+            <form action="" method="post" id="form1">
+                <input type="text" name="Search" id="" style="color: rgb(12, 35, 78);" placeholder="Search the site">
+                <button type="submit" style="color: rgb(12, 35, 78);">GO</button>
+            </form>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Promotion</a></li>
+                    <li><a href="#">Gift Baskets</a></li>
+                    <li><a href="#">Flower Services</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="content"></div>
+        <footer>
+            <p>Copyright@2024 - All Right Reserved - Software Engineering Department - Truong Dai hoc Cong nghiep TPHCM</p>
+        </footer>
+    </div>
+    </div>
+</body>
+
+</html>
